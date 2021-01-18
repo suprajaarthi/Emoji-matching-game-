@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Emoji Matching</title>
+    <title>Emoji matching 🤩 </title>
     <link rel="icon" href="neww.jpg" sizes="16x16" type="image/png" />
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+
+
     <div class="gameContainer">
       <div class="container">
-        <h1 class="text-center text-dark display-4">How is your memory</h1>
+        <h1 class="text-center text-dark display-4">How's your memory 🧐</h1>
       </div>
       <div class="card" data-image="evilface">
         <img src="monkey.jpg" class="front flip" alt="evilface" />
@@ -83,6 +85,12 @@
         <img src="neww.jpg" class="back" alt="lco" />
       </div>
     </div>
+    <div class="score">
+ <h5 id="align3">😻Your score🥳</h5> 
+       <img id="align2"  src="trophy.png" style="height: 80px;width: 80px;">
+
+ <h5 id="align1"  class="counter">1000</h5>
+</div>
     <script src="index.js"></script>
     <script >
     	    window.onload=function(){
@@ -95,6 +103,22 @@ Swal.fire({
       
     });
 }
+    </script>
+
+    <script>
+    	var counter = document.querySelector(".counter");
+// var followers = document.querySelector(".followers");
+
+// set the value of a class 
+// counter.innerHTML = 1000;
+let count = 1000;
+// it increases gradually with time of 1000ms 
+setInterval(()=>
+{
+	// if(count<=1000){
+		count--;
+		counter.innerText = count;
+},1000);
     </script>
   </body>
 </html>
