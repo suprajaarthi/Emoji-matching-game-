@@ -17,6 +17,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
+  margin-bottom: 130px;
+  position: relative;
 }
 
 .card {
@@ -34,7 +36,9 @@ body {
   transform: scale(0.95);
   transition: transform 0.05s ease-in-out;
 }
-
+.score{
+  display: block;
+}
 .card.flip {
   transform: rotateY(180deg);
   cursor: pointer;
@@ -53,4 +57,17 @@ body {
 
 .front {
   transform: rotateY(180deg);
+}
+
+#align1{
+  margin-left: -30px;
+  position: relative;
+}
+#align2{
+  margin-left: -50px;
+  position: relative;
+}
+#align3{
+  left: -90px;
+  position: relative;
 }
