@@ -11,11 +11,15 @@ cards.forEach((card) => card.addEventListener("click", flip));
 function flip() {
   //   console.log("Card flipped");
   // console.log(this);
+  if(secondCard != null) {
+    return null;
+}
   this.classList.add("flip");
   if (!isFlipped) {
     isFlipped = true;
     firstCard = this;
   } else {
+
     secondCard = this;
     console.log(firstCard);
     console.log(secondCard);
@@ -27,7 +31,7 @@ let co=0;
 let fo=0;
 function checkIt() {
   //   console.log("Checking...");
-  if (firstCard.dataset.image === secondCard.dataset.image) {
+  if (firstCard.dataset.image === secondCard.dataset.image ) {
     success();
     co++;
     fo++;
@@ -37,7 +41,8 @@ function checkIt() {
       // alert('SSS');
       swal({
   icon:'success',
-  text: `WON!!! IN ${fo} MOVES`,
+  // text: `WON !!! IN ${fo} MOVES`,
+  text:`WON IN ${fo} MOVES !!! YOUR SCORE IS ${count}`,
   buttons: ["DONE"],
 });
       // swal(`SUCCESS!! in ${fo} moves`);
@@ -63,7 +68,7 @@ function fail() {
     firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
     reset();
-  }, 1000);
+  }, 500);
 }
 
 function reset() {
