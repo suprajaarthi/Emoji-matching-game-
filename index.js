@@ -33,15 +33,16 @@ function checkIt() {
   //   console.log("Checking...");
   if (firstCard.dataset.image === secondCard.dataset.image ) {
     success();
+    co++;
     fo++;
 
-    if(fo==8)
+    if(co==8)
     {
       // alert('SSS');
       swal({
   icon:'success',
   // text: `WON !!! IN ${fo} MOVES`,
-  text:`WON IN ${co} MOVES 🥰  YOUR SCORE IS ${count}🤓`,
+  text:`WON IN ${co} MOVES !!! YOUR SCORE IS ${count}`,
   buttons: ["DONE"],
 });
       // swal(`SUCCESS!! in ${fo} moves`);
@@ -50,7 +51,6 @@ function checkIt() {
 
   } else {
     fail();
-    co++;
     fo++;
   }
 }
