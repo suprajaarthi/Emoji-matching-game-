@@ -15,6 +15,9 @@ Emoji matching game  in js
   - secondcard 
   - Since the default value is null or undefined , it need not be undefined 
   
+- ```javascript 
+  function flip()
+  ```
 - Methods involved :
   - Flip the card 
   - Success event
