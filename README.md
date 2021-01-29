@@ -52,7 +52,8 @@ Emoji matching game  in js
      ,1000})
     // to hold on things for a minute
   ```
-- ```javascript 
+- 
+```javascript 
   function shuffle(){
   var index= math.random()*16;
   card.style.order=index;
