@@ -2,8 +2,11 @@
 
 Emoji matching game  in js 
 
-- To Get the card :
+- To Access the card :
   - Use query selector 
+
+- To flip the card : 
+  - Add Event Listener 
 
 - Methods involved :
   - Flip the card 
