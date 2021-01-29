@@ -36,6 +36,12 @@ Emoji matching game  in js
     reset();
     // stop flipping the card and turn it open 
     ```
+- ```javascript 
+  function failure():
+   if (failed):
+    // do reverse of flip function
+     this.classList.remove("flip")
+  ```
 - Methods involved :
   - Flip the card 
   - Success event
