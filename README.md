@@ -30,6 +30,11 @@ Emoji matching game  in js
     var firstcard;
     var secondcard;
   ```
+- ```javascript 
+  function success():
+    removeEventlistener(flip)
+    /// stop flipping the card and turn it open 
+    ```
 - Methods involved :
   - Flip the card 
   - Success event
