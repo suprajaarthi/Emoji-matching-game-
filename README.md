@@ -2,6 +2,13 @@
 
 Emoji matching game  in js 
 
+- Methods involved :
+  - Flip the card 
+  - Success event
+  - Failure event
+  - Resetting the event 
+  - Shuffling the cards
+  
 - To Access the card :
   - Use query selector 
   - data-image attribute is used in  Images 
@@ -42,13 +49,6 @@ Emoji matching game  in js
     // do reverse of flip function
      this.classList.remove("flip")
   ```
-- Methods involved :
-  - Flip the card 
-  - Success event
-  - Failure event
-  - Resetting the event 
-  - Shuffling the cards
-  
   
 
 <img src="Screenshot (736).png">
