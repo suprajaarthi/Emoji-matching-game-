@@ -51,7 +51,6 @@ Emoji matching game  in js
      this.classList.remove("flip")
      ,1000})
     // to hold on things for a minute
-   ettimeout(
   ```
   
 
