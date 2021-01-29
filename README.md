@@ -47,7 +47,11 @@ Emoji matching game  in js
   function failure():
    if (failed):
     // do reverse of flip function
+     settimeout(()=>{
      this.classList.remove("flip")
+     }
+    // to hold on things for a minute
+    settimeout(
   ```
   
 
