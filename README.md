@@ -49,9 +49,9 @@ Emoji matching game  in js
     // do reverse of flip function
      settimeout(()=>{
      this.classList.remove("flip")
-     }
+     ,1000})
     // to hold on things for a minute
-    settimeout(
+   ettimeout(
   ```
   
 
