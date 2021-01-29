@@ -32,7 +32,8 @@ Emoji matching game  in js
   ```
 - ```javascript 
   function success():
-    removeEventlistener(flip)
+    removeEventlistener(firstcard && secondcard);
+    reset();
     // stop flipping the card and turn it open 
     ```
 - Methods involved :
