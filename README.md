@@ -17,7 +17,9 @@ Emoji matching game  in js
   
 - ```javascript 
   function flip()
+    this.classList.add("flip")
   ```
+  - 
 - Methods involved :
   - Flip the card 
   - Success event
