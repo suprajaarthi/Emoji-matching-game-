@@ -8,6 +8,13 @@ Emoji matching game  in js
 - To flip the card : 
   - Add Event Listener 
 
+- To keep track of the cards 
+  - Use 3 variables 
+  - isflipped = false 
+  - firstcard= null or undefined 
+  - secondcard 
+  - Since the default value is null or undefined , it need not be undefined 
+  
 - Methods involved :
   - Flip the card 
   - Success event
