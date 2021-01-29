@@ -22,9 +22,14 @@ Emoji matching game  in js
     this.classList.add("flip")
     if(isflipped==false)
       Switch on the isflipped flag as true 
-  
   ```
-  
+- ```javascript 
+  function reset():
+  // reset all flag values 
+    var isflipped = false;
+    var firstcard;
+    var secondcard;
+  ```
 - Methods involved :
   - Flip the card 
   - Success event
