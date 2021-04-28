@@ -42,7 +42,7 @@ function checkIt() {
       swal({
   icon:'success',
   // text: `WON !!! IN ${fo} MOVES`,
-  text:`WON IN ${co} MOVES 🥳 YOUR SCORE IS ${count} 😇`,
+  text:`WON IN ${fo} MOVES 🥳 YOUR SCORE IS ${count} 😇`,
   buttons: ["DONE"],
 });
       // swal(`SUCCESS!! in ${fo} moves`);
