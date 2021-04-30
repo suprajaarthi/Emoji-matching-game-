@@ -58,7 +58,4 @@ Emoji matching game  in js
   var index= math.random()*16;
   card.style.order=index;
 ```
-
 <img src="Screenshot (736).png">
-
-https://suprajaarthi.github.io/Emoji-matching-game-/
