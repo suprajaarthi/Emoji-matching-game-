@@ -34,7 +34,7 @@ function checkIt() {
   if (firstCard.dataset.image === secondCard.dataset.image ) {
     success();
     co++;
-    fo++;
+  
 
     if(co==8)
     {
