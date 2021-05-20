@@ -1,4 +1,5 @@
 # Emoji-matching-game-
+![1621496212017](https://user-images.githubusercontent.com/51900501/118938436-462ea280-b96c-11eb-879c-df99e4b39a35.png)
 
 Emoji matching game  in js 
 
